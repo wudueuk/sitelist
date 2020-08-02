@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* Обнуление */
+* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+}
+
+*, *:before, *:after {
+		box-sizing: border-box;
+}
+
+:focus, :active {
+		outline: none;
+}
+
+a:focus, a:active {
+		outline: none;
+}
+
+nav, footer, header, aside {
+		display: block;
+}
+
+html, body {
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 14px;
+		font-weight: normal;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+		font-family: inherit;
+}
+
+input::-ms-clear {
+		display: none;
+}
+
+button {
+		cursor: pointer;
+}
+
+button::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+}
+
+a, a:visited {
+		text-decoration: none;
+}
+
+a:hover {
+		text-decoration: none;
+}
+
+ul li {
+		list-style: none;
+}
+
+img {
+		vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-size: inherit;
+		font-weight: 400;
+}
+
+@font-face {
+		font-family: "Poppins";
+		src: url(../fonts/Poppins.ttf);
+}
+@font-face {
+		font-family: "Linearicons-Free";
+		src: url("../fonts/Linearicons-Free.eot?w118d");
+		src: url("../fonts/Linearicons-Free.eot?#iefixw118d") format("embedded-opentype"), url("../fonts/Linearicons-Free.woff2?w118d") format("woff2"), url("../fonts/Linearicons-Free.woff?w118d") format("woff"), url("../fonts/Linearicons-Free.ttf?w118d") format("truetype"), url("../fonts/Linearicons-Free.svg?w118d#Linearicons-Free") format("svg");
+		font-weight: normal;
+		font-style: normal;
+}
+body {
+		color: #777777;
+		background-color: #fff;
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 1.625em;
+}
+
+h1 {
+		color: #000;
+		margin: 20px 0;
+		font-size: 60px;
+		text-transform: uppercase;
+}
+
+h6 {
+		color: #000;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 2px;
+}
+
+p {
+		margin-top: 0;
+		margin-bottom: 1rem;
+}
+
+.wrapper {
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+}
+
+.header {
+		background-color: #fff;
+}
+
+.wudueuk {
+		display: inline-block;
+		height: 50px;
+		padding-top: 13px;
+		font-size: 24px;
+		font-weight: 700;
+}
+
+.navbar-collapse {
+		margin-left: 200px;
+}
+
+.banner-area {
+		background-color: #f9f9ff;
+		padding: 100px 0;
+}
+
+.img-fluid {
+		padding: 10px;
+}
+
+.home-about-area {
+		padding: 100px;
+}
+.home-about-area h1 {
+		font-size: 30px;
+}
+
+.services-area {
+		padding: 50px 0;
+}
+.services-area h1 {
+		font-size: 36px;
+		font-weight: 700;
+}
+
+.single-services {
+		text-align: center;
+		padding: 20px;
+}
+.single-services h4 {
+		color: #060472;
+		font-size: 25px;
+		padding: 20px 0;
+		font-weight: 600;
+}
+.single-services .lnr {
+		color: red;
+		font-size: 36px;
+}
+
+.portfolio-area {
+		background-color: #f9f9ff;
+		padding: 50px 0;
+}
+.portfolio-area h1 {
+		font-size: 36px;
+		font-weight: 700;
+}
+
+.single-portfolio h4 {
+		padding: 20px 0 10px 0;
+		font-size: 18px;
+		color: #000;
+		font-weight: 600;
+		text-align: center;
+}
+
+.footer-area {
+		background-color: #04091e;
+		padding: 100px 0;
+}
+.footer-area h4 {
+		color: #fff;
+		font-weight: 600;
+		font-size: 18px;
+}
