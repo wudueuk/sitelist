@@ -4,11 +4,207 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Wudueuk - список работ</title>
+	<title>Моя персональная страница</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-  <a href="https://wudueuk.github.io/mysites/" target="_blank">НОВОКУБАНСКОЕ РАЙОННОЕ КАЗАЧЬЕ ОБЩЕСТВО</a>
-  <br>
-  <a href="https://wudueuk.github.io/sushibir/" target="_blank">Шаблон сайта суши-ресторана</a>
+	<div class="wrapper">
+		<header class="header fixed-top">
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-light bg-white">
+					<a class="navbar-brand" href="#"><img src="images/Letter_W.png" width="50" height="50" alt="Логотип"
+							class="d-inline-block align-center"><span class="wudueuk">udueuk</span></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Обо мне</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Услуги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Портфолио</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- start banner Area -->
+		<section class="banner-area">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6 col-md-6">
+						<h6>Здравствуйте, мое имя</h6>
+						<h1>Эдуард</h1>
+						<p>
+							Я - фрилансер. Моя специализация - веб-технологии (создание интернет-сайтов, поддержка их
+							работоспособности, управление контентом, адаптация под современные требования, решение других задач
+							по данному направлению).
+						</p>
+						<!--<a href="#" class="btn btn-primary text-uppercase">Подробнее &raquo;</a>-->
+					</div>
+					<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
+						<img class="img-fluid" src="images/hero-img.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End banner Area -->
+
+		<!-- Start services Area -->
+		<section class="services-area section-gap">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content col-lg-7">
+						<div class="title text-center">
+							<h1 class="mb-10">Я предлагаю</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-pie-chart"></span>
+							<h4>Front-end</h4>
+							<p>Верстка шаблонов веб-страниц на основе psd-макетов и других изображений, а также по образу и
+								подобию других сайтов</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-laptop-phone"></span>
+							<h4>Посадка шаблонов</h4>
+							<p>"Натягивание" шаблонов веб-страниц на различные CMS-системы (1С-Bitrix, WordPress, Joomla и
+								т.д.)</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-tablet"></span>
+							<h4>Адаптация</h4>
+							<p>Адаптация уже существующих сайтов для их корректного отображения на мобильных устройствах
+								(fistmobile-верстка)</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-construction"></span>
+							<h4>Back-end</h4>
+							<p>
+								Обслуживание CMS-систем, внесение необходимых коррективов в PHP-код, разработка дополнительных
+								модулей для решения стоящих задач. Администрирование баз данных MySQL.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-layers"></span>
+							<h4>Контент-менеджмент</h4>
+							<p>
+								Управление содержимым сайтов. Наполнение сайта текстовой, графической и другими видами
+								информацией, улучшение ее восприятия выбранной целевой группой.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="single-services">
+							<span class="lnr lnr-rocket"></span>
+							<h4>Оптимизация</h4>
+							<p>
+								Анализ содержания html-страниц, CSS-файлов, PHP-скриптов на предмет лишнего кода, увеличение
+								скорости загрузки страниц.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End services Area -->
+
+		<!-- Start portfolio-area Area -->
+		<section class="portfolio-area" id="portfolio">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-70 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">Мои работы</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="filters-content">
+					<div class="row">
+						<div class="single-portfolio col-sm-4">
+							<a href="https://wudueuk.github.io/mysites" target="_blank">
+								<img src="images/nrko_small.png" alt="Новокубанское казачье общество">
+							</a>
+							<h4>Новокубанское казачье общество</h4>
+							<p>Проект новой главной страницы сайта Новокубанского районного казачьего общества с использованием
+								фреймворка Bootstrap.</p>
+						</div>
+						<div class="single-portfolio col-sm-4">
+							<a href="https://wudueuk.github.io/sushibir" target="_blank"><img src="images/sushibir_small.png"
+									alt="Суши в Биробиджане"></a>
+							<h4>Продажа суши в Биробиджане</h4>
+							<p>Разработан проект главной страницы интернет-магазана для продажи суши в г. Биробиджан. Частично
+								использованы стили и сетки фреймворка Bootstrap.</p>
+						</div>
+						<div class="single-portfolio col-sm-4">
+							<a href="https://wudueuk.github.io/kvast/" target="_blank"><img src="images/kvast_small.png"
+									alt="Крафтовый квас"></a>
+							<h4>Крафтовый квас</h4>
+							<p>Результат выполнения финального задания онлайн-курсов по верстке "HTML Academy".</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End portfolio-area Area -->
+
+		<!-- start footer Area -->
+		<footer class="footer-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-sm-6">
+						<h4>Мои контакты</h4>
+						<p>
+							e-mail: wudueuk@gmail.com
+						</p>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-6">
+						<h4>Страничка на GitHub</h4>
+						<p>
+							https://github.com/wudueuk
+						</p>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer Area -->
+
+
+	</div>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
+
 </html>
